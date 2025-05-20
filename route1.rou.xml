@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-20 14:48:14 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="f_1" depart="0.00" from="-E345" to="E69"/>
+    <trip id="f_10" depart="0.00" from="-E183" to="E68"/>
+    <trip id="f_11" depart="0.00" from="-E251" to="-E251"/>
+    <trip id="f_12" depart="0.00" from="-E275" to="E68"/>
+    <trip id="f_14" depart="0.00" from="-E78" to="E68"/>
+    <trip id="f_15" depart="0.00" from="-E233" to="E68"/>
+    <trip id="f_16" depart="0.00" from="-E304" to="E68"/>
+    <trip id="f_2" depart="0.00" from="-E353" to="E69"/>
+    <trip id="f_21" depart="0.00" from="-E170" to="E68"/>
+    <trip id="f_22" depart="0.00" from="-E314" to="E68"/>
+    <trip id="f_23" depart="0.00" from="-E227" to="E68"/>
+    <trip id="f_24" depart="0.00" from="-E290" to="E68"/>
+    <trip id="f_25" depart="0.00" from="-E244" to="E68"/>
+    <trip id="f_26" depart="0.00" from="-E203" to="E68"/>
+    <trip id="f_3" depart="0.00" from="-E159" to="E68"/>
+    <trip id="f_34" depart="0.00" from="-E253" to="E68"/>
+    <trip id="f_4" depart="0.00" from="-E257" to="E68"/>
+    <trip id="f_5" depart="0.00" from="-E296" to="E68"/>
+    <trip id="f_6" depart="0.00" from="-E317" to="E68"/>
+    <trip id="f_7" depart="0.00" from="-E299" to="E68"/>
+    <trip id="f_8" depart="0.00" from="-E272" to="E68"/>
+    <trip id="f_9" depart="0.00" from="-E254" to="E68"/>
+    <trip id="t_0" depart="0.00" from="-E346" to="E68"/>
+    <trip id="t_1" depart="0.00" from="-E349" to="E68"/>
+    <trip id="t_10" depart="0.00" from="-E77" to="E68"/>
+    <trip id="t_11" depart="0.00" from="-E46" to="E68"/>
+    <trip id="t_12" depart="0.00" from="-E48" to="E68"/>
+    <trip id="t_13" depart="0.00" from="-E79" to="E68"/>
+    <trip id="t_14" depart="0.00" from="-E50" to="E68"/>
+    <trip id="t_15" depart="0.00" from="-E80" to="E68"/>
+    <trip id="t_16" depart="0.00" from="-E52" to="E68"/>
+    <trip id="t_17" depart="0.00" from="-E81" to="E68"/>
+    <trip id="t_18" depart="0.00" from="-E54" to="E68"/>
+    <trip id="t_19" depart="0.00" from="-E82" to="E68"/>
+    <trip id="t_2" depart="0.00" from="-E348" to="E68"/>
+    <trip id="t_20" depart="0.00" from="-E56" to="E68"/>
+    <trip id="t_21" depart="0.00" from="-E83" to="E68"/>
+    <trip id="t_22" depart="0.00" from="-E58" to="-E58"/>
+    <trip id="t_23" depart="0.00" from="-E60" to="E68"/>
+    <trip id="t_24" depart="0.00" from="-E84" to="E68"/>
+    <trip id="t_25" depart="0.00" from="-E62" to="E68"/>
+    <trip id="t_26" depart="0.00" from="-E85" to="E68"/>
+    <trip id="t_27" depart="0.00" from="-E64" to="E68"/>
+    <trip id="t_28" depart="0.00" from="-E86" to="E68"/>
+    <trip id="t_29" depart="0.00" from="-E66" to="E68"/>
+    <trip id="t_3" depart="0.00" from="-E74" to="-E74"/>
+    <trip id="t_30" depart="0.00" from="-E87" to="E68"/>
+    <trip id="t_31" depart="0.00" from="-E356" to="E68"/>
+    <trip id="t_32" depart="0.00" from="-E96" to="E68"/>
+    <trip id="t_33" depart="0.00" from="-E352" to="E68"/>
+    <trip id="t_34" depart="0.00" from="-E355" to="E68"/>
+    <trip id="t_35" depart="0.00" from="-E358" to="E68"/>
+    <trip id="t_36" depart="0.00" from="-E99" to="E68"/>
+    <trip id="t_37" depart="0.00" from="-E98" to="E68"/>
+    <trip id="t_38" depart="0.00" from="-E102" to="E68"/>
+    <trip id="t_39" depart="0.00" from="-E101" to="E68"/>
+    <trip id="t_4" depart="0.00" from="-E74" to="E68"/>
+    <trip id="t_40" depart="0.00" from="-E104" to="E68"/>
+    <trip id="t_41" depart="0.00" from="-E107" to="E68"/>
+    <trip id="t_42" depart="0.00" from="-E110" to="E68"/>
+    <trip id="t_43" depart="0.00" from="-E111" to="E68"/>
+    <trip id="t_44" depart="0.00" from="-E108" to="E68"/>
+    <trip id="t_45" depart="0.00" from="-E105" to="E68"/>
+    <trip id="t_46" depart="0.00" from="-E114" to="E68"/>
+    <trip id="t_47" depart="0.00" from="-E113" to="E68"/>
+    <trip id="t_48" depart="0.00" from="-E117" to="E68"/>
+    <trip id="t_49" depart="0.00" from="-E116" to="E68"/>
+    <trip id="t_5" depart="0.00" from="-E40" to="-E40"/>
+    <trip id="t_50" depart="0.00" from="-E120" to="E68"/>
+    <trip id="t_51" depart="0.00" from="-E119" to="E68"/>
+    <trip id="t_52" depart="0.00" from="-E123" to="E68"/>
+    <trip id="t_53" depart="0.00" from="-E122" to="E68"/>
+    <trip id="t_54" depart="0.00" from="-E126" to="E68"/>
+    <trip id="t_55" depart="0.00" from="-E125" to="E68"/>
+    <trip id="t_56" depart="0.00" from="-E129" to="E68"/>
+    <trip id="t_57" depart="0.00" from="-E128" to="E68"/>
+    <trip id="t_58" depart="0.00" from="-E132" to="E68"/>
+    <trip id="t_59" depart="0.00" from="-E131" to="E68"/>
+    <trip id="t_6" depart="0.00" from="-E75" to="E68"/>
+    <trip id="t_60" depart="0.00" from="-E135" to="E68"/>
+    <trip id="t_61" depart="0.00" from="-E134" to="E68"/>
+    <trip id="t_7" depart="0.00" from="-E44" to="E68"/>
+    <trip id="t_8" depart="0.00" from="-E42" to="E68"/>
+    <trip id="t_9" depart="0.00" from="-E76" to="E68"/>
+</routes>
