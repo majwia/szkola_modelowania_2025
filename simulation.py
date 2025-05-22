@@ -83,13 +83,10 @@ def generate_random_routes():
 
         entry = parking_data[edge]
         full_via = entry['via'].split()
-        if edge not in full_via:
-            continue
-        idx = full_via.index(edge)
-        via_to_park = full_via[:idx+1]
 
+        via_to_park = full_via  # UŻYWAMY PEŁNEJ TRASY!
         # depart = abs(np.random.normal(scale=600)) # DO LICZENIA CZASOW DLA REALNEJ SYMULACJI
-        depart = abs(np.random.normal(20,10)) # DO POKAZU NA PREZENTACJE CZY COS
+        depart = abs(np.random.normal(20,10))  # do prezentacji
         travel_time = sum(lengths.get(e, 0) for e in via_to_park) / 13.89
         arrival = depart + travel_time
 
@@ -113,7 +110,7 @@ def generate_random_routes():
     sorted_idx = np.argsort(-edge_nums)
     exp_gaps = np.random.exponential(scale=2.0, size=len(vehicles))
     sorted_departures = base_depart + np.cumsum(exp_gaps)
-
+    
     veh_output = []
     for i, j in enumerate(sorted_idx):
         v = vehicles[j]
@@ -136,13 +133,21 @@ def generate_random_routes():
         print('<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">', file=routes)
         print(f'  <route id="exitRoute" edges="{exitRoute}"/>', file=routes)
 
+        # odjazd_start = 0
+        
         for v in veh_output:
             print(f'  <vehicle id="{v["id"]}" depart="{v["depart"]}">', file=routes)
             print(f'    <route edges="{v["via"]}"/>', file=routes)
             print(f'    <stop parkingArea="{v["parking"]}" duration="{v["duration"]:.2f}"/>', file=routes)
             print('  </vehicle>', file=routes)
 
+            # odjazd_start = max((v["depart"] + v["duration"]), odjazd_start)
+            
         print('</routes>', file=routes)
-
+        # print(odjazd_start)
+        # print(wyjazd)
+        # print(min(sorted_departures))
+    
+    
 if __name__ == '__main__':
     generate_random_routes()
